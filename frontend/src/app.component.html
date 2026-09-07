@@ -1,0 +1,110 @@
+<div class="container">
+  <h1>Tic Tac Toe</h1>
+
+  <div class="modes">
+    <button [class.active]="mode==='TwoPlayer'" (click)="changeMode('TwoPlayer')">Two Players</button>
+    <button [class.active]="mode==='Computer'" (click)="changeMode('Computer')">Play Against Computer</button>
+  </div>
+
+  @if (game) {
+    <div class="message">{{message()}}</div>
+    @if (error) { <div class="error">{{error}}</div> }
+
+    <div class="layout">
+      <section>
+<div class="board">
+  <button class="cell" [class.winning]="winning(0,0)"
+    [disabled]="game.status !== 'InProgress' || !!game.board[0][0]"
+    (click)="clickCell(0,0)">
+    {{game.board[0][0] ?? ''}}
+  </button>
+
+  <button class="cell" [class.winning]="winning(0,1)"
+    [disabled]="game.status !== 'InProgress' || !!game.board[0][1]"
+    (click)="clickCell(0,1)">
+    {{game.board[0][1] ?? ''}}
+  </button>
+
+  <button class="cell" [class.winning]="winning(0,2)"
+    [disabled]="game.status !== 'InProgress' || !!game.board[0][2]"
+    (click)="clickCell(0,2)">
+    {{game.board[0][2] ?? ''}}
+  </button>
+
+  <button class="cell" [class.winning]="winning(1,0)"
+    [disabled]="game.status !== 'InProgress' || !!game.board[1][0]"
+    (click)="clickCell(1,0)">
+    {{game.board[1][0] ?? ''}}
+  </button>
+
+  <button class="cell" [class.winning]="winning(1,1)"
+    [disabled]="game.status !== 'InProgress' || !!game.board[1][1]"
+    (click)="clickCell(1,1)">
+    {{game.board[1][1] ?? ''}}
+  </button>
+
+  <button class="cell" [class.winning]="winning(1,2)"
+    [disabled]="game.status !== 'InProgress' || !!game.board[1][2]"
+    (click)="clickCell(1,2)">
+    {{game.board[1][2] ?? ''}}
+  </button>
+
+  <button class="cell" [class.winning]="winning(2,0)"
+    [disabled]="game.status !== 'InProgress' || !!game.board[2][0]"
+    (click)="clickCell(2,0)">
+    {{game.board[2][0] ?? ''}}
+  </button>
+
+  <button class="cell" [class.winning]="winning(2,1)"
+    [disabled]="game.status !== 'InProgress' || !!game.board[2][1]"
+    (click)="clickCell(2,1)">
+    {{game.board[2][1] ?? ''}}
+  </button>
+
+  <button class="cell" [class.winning]="winning(2,2)"
+    [disabled]="game.status !== 'InProgress' || !!game.board[2][2]"
+    (click)="clickCell(2,2)">
+    {{game.board[2][2] ?? ''}}
+  </button>
+</div>
+
+        <div class="actions">
+          <button (click)="resetGame()">Reset Game</button>
+          <button (click)="undo()" [disabled]="!game.canUndo">Undo Last Move</button>
+        </div>
+      </section>
+
+      <aside>
+        <div class="card">
+          <h2>Scoreboard</h2>
+          <div class="scores">
+            <div><b>{{game.scoreboard.xWins}}</b><span>X Wins</span></div>
+            <div><b>{{game.scoreboard.oWins}}</b><span>O Wins</span></div>
+            <div><b>{{game.scoreboard.draws}}</b><span>Draws</span></div>
+          </div>
+          <button (click)="resetScoreboard()">Reset Scoreboard</button>
+        </div>
+
+        <div class="card">
+          <h2>Move History</h2>
+          @if (game.moveHistory.length === 0) {
+            <p>No moves yet.</p>
+          } @else {
+            <table>
+              <thead><tr><th>#</th><th>Player</th><th>Position</th></tr></thead>
+              <tbody>
+                @for (move of game.moveHistory; track move.number) {
+                  <tr>
+                    <td>{{move.number}}</td>
+                    <td>{{move.player}}</td>
+                    <td>Row {{move.row+1}}, Column {{move.column+1}}</td>
+                  </tr>
+                }
+              </tbody>
+            </table>
+          }
+        </div>
+      </aside>
+    </div>
+  }
+</div>

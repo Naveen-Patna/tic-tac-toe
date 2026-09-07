@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Naveen Kumar\\Downloads\\TicTacToeAssessment_ReadyToSubmit\\TicTacToeAssessment_Simple\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{22222222-2222-2222-2222-222222222222}|TicTacToe.Tests\\TicTacToe.Tests.csproj|c:\\users\\naveen kumar\\downloads\\tictactoeassessment_readytosubmit\\tictactoeassessment_simple\\backend\\tictactoe.tests\\gameservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22222222-2222-2222-2222-222222222222}|TicTacToe.Tests\\TicTacToe.Tests.csproj|solutionrelative:tictactoe.tests\\gameservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|TicTacToe.Api\\TicTacToe.Api.csproj|c:\\users\\naveen kumar\\downloads\\tictactoeassessment_readytosubmit\\tictactoeassessment_simple\\backend\\tictactoe.api\\models\\gamemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|TicTacToe.Api\\TicTacToe.Api.csproj|solutionrelative:tictactoe.api\\models\\gamemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|TicTacToe.Api\\TicTacToe.Api.csproj|c:\\users\\naveen kumar\\downloads\\tictactoeassessment_readytosubmit\\tictactoeassessment_simple\\backend\\tictactoe.api\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|TicTacToe.Api\\TicTacToe.Api.csproj|solutionrelative:tictactoe.api\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameService.cs",
+              "DocumentMoniker": "C:\\Users\\Naveen Kumar\\Downloads\\TicTacToeAssessment_ReadyToSubmit\\TicTacToeAssessment_Simple\\backend\\TicTacToe.Api\\Services\\GameService.cs",
+              "RelativeDocumentMoniker": "TicTacToe.Api\\Services\\GameService.cs",
+              "ToolTip": "C:\\Users\\Naveen Kumar\\Downloads\\TicTacToeAssessment_ReadyToSubmit\\TicTacToeAssessment_Simple\\backend\\TicTacToe.Api\\Services\\GameService.cs",
+              "RelativeToolTip": "TicTacToe.Api\\Services\\GameService.cs",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAmwMkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T04:40:55.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameModels.cs",
+              "DocumentMoniker": "C:\\Users\\Naveen Kumar\\Downloads\\TicTacToeAssessment_ReadyToSubmit\\TicTacToeAssessment_Simple\\backend\\TicTacToe.Api\\Models\\GameModels.cs",
+              "RelativeDocumentMoniker": "TicTacToe.Api\\Models\\GameModels.cs",
+              "ToolTip": "C:\\Users\\Naveen Kumar\\Downloads\\TicTacToeAssessment_ReadyToSubmit\\TicTacToeAssessment_Simple\\backend\\TicTacToe.Api\\Models\\GameModels.cs",
+              "RelativeToolTip": "TicTacToe.Api\\Models\\GameModels.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA3wCcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T02:46:24.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\Naveen Kumar\\Downloads\\TicTacToeAssessment_ReadyToSubmit\\TicTacToeAssessment_Simple\\backend\\TicTacToe.Tests\\GameServiceTests.cs",
+              "RelativeDocumentMoniker": "TicTacToe.Tests\\GameServiceTests.cs",
+              "ToolTip": "C:\\Users\\Naveen Kumar\\Downloads\\TicTacToeAssessment_ReadyToSubmit\\TicTacToeAssessment_Simple\\backend\\TicTacToe.Tests\\GameServiceTests.cs",
+              "RelativeToolTip": "TicTacToe.Tests\\GameServiceTests.cs",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAuwBEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T02:36:39.107Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
